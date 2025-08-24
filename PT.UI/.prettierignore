@@ -1,0 +1,22 @@
+# Ignore artifacts:
+build
+coverage
+out
+dist
+
+node_modules
+
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+.env
+*.log
+
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.pdf
