@@ -30,3 +30,9 @@ Run those commands:
 Access the API documentation at `http://localhost:<app_port>/swagger/index.html` where `<app_port>` is the https port printed in the console (i. e. https://localhost:5001/swagger/index.html).
 
 Access the UI at `http://localhost:3000`
+
+# Gallery
+
+The app should look like in the screenshot:
+
+![Dashboard](./docs/img/app-dashboard.png)
