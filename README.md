@@ -7,6 +7,10 @@
 Please do be aware ports 5000, 5001 and 3000 should be available, no other processes should listening on those.
 Checking ports used and killing processes: https://sentry.io/answers/kill-process-using-port-in-windows/
 
+# Database
+
+An installation of the SQL Server relational database management system is required. Version 2022 is recommended.
+
 # Database Migrations
 
 Install the EF Core CLI tool:
@@ -14,7 +18,7 @@ https://learn.microsoft.com/en-us/ef/core/cli/dotnet
 
 While in the projects root folder, in a terminal:
 
-- [Needed] To apply the migrations run: `dotnet ef database update --verbose --project PT.Data`
+- To apply the migrations run: `dotnet ef database update --verbose --project PT.Data`
 
 # Setup / Build
 
